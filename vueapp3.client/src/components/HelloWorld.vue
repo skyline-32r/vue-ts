@@ -20,7 +20,8 @@
                     <tr v-for="forecast in post" :key="forecast.date">
                         <td>{{ forecast.id }}</td>
                         <td>{{ forecast.name}}</td>
-                        <td>{{ forecast.price}}</td>             
+                        <td>{{ forecast.price}}</td>
+                        <td>{{ forecast.price}}</td>
                     </tr>
                 </tbody>
             </table>
